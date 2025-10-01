@@ -1,10 +1,7 @@
 const App = () =>{
 
   return (
-    <>
-    <h1></h1>
-      
-    </>
+   <main className="bg-black"></main>
   )
 }
 
