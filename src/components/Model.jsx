@@ -7,6 +7,7 @@ import * as THREE from 'three';
 import { Canvas } from '@react-three/fiber';
 
 import { models, sizes } from "../constants";
+import { View } from '@react-three/drei';
 
 
 const Model = () => {
@@ -77,6 +78,7 @@ const Model = () => {
                       }}
                        eventSource={document.getElementById('root')}
                     >
+                        <View.Port/>
                     </Canvas>
                 </div>
 
