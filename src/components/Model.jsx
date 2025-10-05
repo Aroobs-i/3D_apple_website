@@ -5,7 +5,6 @@ import ModelView from './ModelView';
 import { yellowImg } from '../utils';
 import * as THREE from 'three';
 import { Canvas } from '@react-three/fiber';
-import { View } from '@react-three/drei';
 
 import { models, sizes } from "../constants";
 
@@ -78,7 +77,6 @@ const Model = () => {
                       }}
                        eventSource={document.getElementById('root')}
                     >
-                        <View.Port />
                     </Canvas>
                 </div>
 
