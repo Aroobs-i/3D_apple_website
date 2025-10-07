@@ -12,17 +12,16 @@ const Features = () => {
     const videoRef = useRef();
 
     useGSAP(() => {
-        gsap.to('#exploreVideo', {
+        gsap.to('#explore_video', {
             scrollTrigger: {
-              trigger: '#exploreVideo',
+              trigger: '#explore_video',
               toggleActions: 'play pause reverse restart',
               start: '-10% bottom',
             },
             onComplete: () => {
-                // eslint-disable-next-line no-undef
-                video.play();
+                videoRef.current.play();
             }
-          })
+          });
 
         animateWithGsap('#features_title', { y:0, opacity:1})
         animateWithGsap('.g_grow',
