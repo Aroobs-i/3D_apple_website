@@ -85,7 +85,6 @@ const HowitWorks = () => {
                                   best graphic performance by far.
                                 </span>
                             </p>
-                        </div>
 
                             <p className='hiw-text g_fadeIn'>
                                 Mobile {' '}
@@ -94,12 +93,12 @@ const HowitWorks = () => {
                                 </span>,
                                 with incredibly detailed environments and characters.
                             </p>
-                        </div>
-
+                            </div>
                         <div className='flex-1 flex justify-center flex-col g_fadeIn'>
                           <p className='hiw-text'>New</p>
-                          <p className='hiw-bigtext'>Pro-class GPU</p>
+                          <p className='hiw-bigtext'>Pro-Class GPU</p>
                           <p className='hiw-text'>with 6 cores</p>
+                        </div>
                         </div>
                     </div>
     </section>
